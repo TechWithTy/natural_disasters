@@ -1,4 +1,4 @@
-cat > backend/app/core/third_party_integrations/natural_disasters/README.md << 'EOF'
+
 # Natural Disasters
 
 Integration for multi-hazard exposure (hurricanes, wildfires, earthquakes, etc.) for real estate risk analysis.
@@ -30,8 +30,3 @@ NATDIS_TIMEOUT=15
 
 ## Usage
 Import the client for programmatic access or mount routes into your FastAPI app.
-EOF
-
-git -C backend/app/core/third_party_integrations/natural_disasters add README.md
-git -C backend/app/core/third_party_integrations/natural_disasters commit -m "Add/update README for natural_disasters"
-git -C backend/app/core/third_party_integrations/natural_disasters push origin master
